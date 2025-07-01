@@ -3,9 +3,14 @@
 // Desafio Super Trunfo - Países
 
 int main() {
+    char estado;
+    int populacao;
+    float area;
+    float pib;
+    int pontosturisticos;
     
     
-    printf("ola mundo\n");
+    printf("");
 
     return 0;
 }
