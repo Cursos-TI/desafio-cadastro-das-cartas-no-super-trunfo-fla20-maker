@@ -22,9 +22,9 @@ int main() {
     printf("digite o estado: \n");
     scanf("%c", &estado);
     printf("incira um codigo: \n");
-    scanf("%s", codigo);
+    scanf("%s", &codigo);
     printf("incira a cidade: \n");
-    scanf("%s", cidade);
+    scanf("%s", &cidade);
     printf("incira a populaçao: \n");
     scanf("%d", &populacao);
     printf("incira a area: \n");
@@ -37,9 +37,9 @@ int main() {
     printf("digite o estado: \n");
     scanf("%c", &estado2);
     printf("incira um codigo: \n");
-    scanf("%s", codigo2);
+    scanf("%s", &codigo2);
     printf("incira a cidade: \n");
-    scanf("%s", cidade2);
+    scanf("%s", &cidade2);
     printf("incira a populaçao: \n");
     scanf("%d", &populacao2);
     printf("incira a area: \n");
