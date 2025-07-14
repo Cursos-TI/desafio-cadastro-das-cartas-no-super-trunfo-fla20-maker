@@ -19,37 +19,22 @@ int main() {
     float pib2;
     int pontosturisticos2;
 
-    printf("digite o estado: \n");
+    printf("digite o estado da carta 1: \n");
     scanf("%c", &estado);
-    printf("incira um codigo: \n");
+    printf("incira um codigo do estado 1: \n");
     scanf("%s", &codigo);
-    printf("incira a cidade: \n");
+    printf("incira a cidade do estado 1: \n");
     scanf("%s", &cidade);
-    printf("incira a populaçao: \n");
+    printf("incira a populaçao do estado 1: \n");
     scanf("%d", &populacao);
-    printf("incira a area: \n");
+    printf("incira a area do estado 1 : \n");
     scanf("%f", &area);
-    printf("incira o pib: \n");
+    printf("incira o pib do estado 1: \n");
     scanf("%f", &pib);
     printf("incira seus pontos turisticos: \n");
     scanf("%d", &pontosturisticos);
 
-    printf("digite o estado: \n");
-    scanf("%c", &estado2);
-    printf("incira um codigo: \n");
-    scanf("%s", &codigo2);
-    printf("incira a cidade: \n");
-    scanf("%s", &cidade2);
-    printf("incira a populaçao: \n");
-    scanf("%d", &populacao2);
-    printf("incira a area: \n");
-    scanf("%f", &area2);
-    printf("incira o pib: \n");
-    scanf("%f", &pib2);
-    printf("incira seus pontos turisticos: \n");
-    scanf("%d", &pontosturisticos2);
-
-    printf("carta 1: \n");
+     printf("carta 1: \n");
     printf("estado: %c \n", estado);
     printf("codigo: %s \n", codigo);
     printf("cidade: %s \n", cidade);
@@ -58,7 +43,22 @@ int main() {
     printf("produto interno bruto: %f bilhoes de reais \n", pib);
     printf("quantidade de pontos turisticos: %d \n", pontosturisticos);
 
-    printf("carta 2: \n");
+    printf("digite o estado da carta 2: \n");
+    scanf("%c", &estado2);
+    printf("incira um codigo do estado 2: \n");
+    scanf("%s", &codigo2);
+    printf("incira a cidade do estado 2: \n");
+    scanf("%s", &cidade2);
+    printf("incira a populaçao do estado 2: \n");
+    scanf("%d", &populacao2);
+    printf("incira a area do estado 2: \n");
+    scanf("%f", &area2);
+    printf("incira o pib do estado 2: \n");
+    scanf("%f", &pib2);
+    printf("incira seus pontos turisticos: \n");
+    scanf("%d", &pontosturisticos2);
+
+     printf("carta 2: \n");
     printf("estado: %c \n", estado2);
     printf("codigo: %s \n", codigo2);
     printf("cidade: %s \n", cidade2);
@@ -66,7 +66,6 @@ int main() {
     printf("area: %f kilometros quadrados\n", area2);
     printf("produto interno bruto: %f bilhoes de reais \n", pib2);
     printf("quantidade de pontos turisticos: %d \n", pontosturisticos2);
-
 
     return 0;
 }
